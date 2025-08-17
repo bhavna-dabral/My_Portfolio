@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavna's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="left fade-in">
+                <p>Hi! I am <span class="name">Bhavna</span></p>
+                <h1>Frontend Web Developer </h1>
+                <p>I am an MCA final year student at NIT Raipur, passionate about creating modern web experiences. I specialize in HTML, CSS, JavaScript, Python, java, and Data Structures.</p>
+                <div class="buttons">
+                    <a href="Bhavna_Resume.pdf" download class="btn hire">Download Resume</a>
+                    <a href="#projects" class="btn project">View Projects</a>
+                </div>
+                <div class="social-icons">
+                    
+                    <a href="https://www.linkedin.com/in/bhavna-dabral-6064001bb"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/bhavna-dabral"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/bhavna_dabral/"><img src="img2.png"  width="50"><i class="fa-brands fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/bhavnadabral00"><img src="Hackerrank_logo.webp"  width="50"><i class="fa-brands fa-code"></i></a>
+                </div>
+            </div>
+            <div class="right fade-in">
+                <div class="profile-circle">
+                    <img src="image.jpg" alt="Bhavna's Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title fade-in">About Me</h2>
+        <p class="fade-in">I am a detail-oriented Web Developer and MCA final year student at NIT Raipur. I love building interactive, responsive web applications and desktop apps using Python. My core strengths include HTML, CSS, JavaScript, Data Structures, Machine Learning, DBMS, OS, OOPs, and Computer Networks. I am constantly learning new technologies and enhancing my coding skills.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <h2 class="section-title fade-in">Education</h2>
+        <ul class="fade-in">
+            <li><strong>Master of Computer Application:</strong> Computer Science, NIT Raipur, Chhattisgarh (2023-2026)</li>
+            <li><strong>Bachelor of Science:</strong> Computer Science, CCS University, Meerut, India (2018-2021)</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title fade-in">Skills & Tools</h2>
+        <ul class="fade-in">
+            <li><strong>Languages:</strong> Java, C, Python</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Database & BI Tools:</strong> SQL, Power BI</li>
+            <li><strong>Concepts:</strong> Data Structures, Machine Learning, DBMS, OS, OOPs, CN</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title fade-in">Projects</h2>
+        <div class="project-card fade-in">
+            <h3>Voice-Activated AI Assistant</h3>
+            <p>Python-based desktop AI assistant with voice recognition, YouTube playback, Wikipedia queries, jokes, and real-time command processing.</p>
+            <a href="https://github.com/bhavna-dabral/Ai-Assistant" target="_blank">GitHub Link</a>
+        </div>
+        <div class="project-card fade-in">
+            <h3>Expense Tracker Desktop App</h3>
+            <p>Developed cross-platform desktop app using Python & Flet for tracking daily expenses with dynamic charts and responsive dark-themed UI.</p>
+            <a href="https://github.com/bhavna-dabral/Expence-Ttracker" target="_blank">GitHub Link</a>
+        </div>
+        <div class="project-card fade-in">
+            <h3>Portfolio Website</h3>
+            <p>Designed a modern portfolio website showcasing my skills, projects, and experience with smooth animations and responsive design.</p>
+            <a href="https://github.com/bhavna-dabral/Expence-Ttracker" target="_blank">GitHub Link</a>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2 class="section-title fade-in">Experience & Internships</h2>
+        <ul class="fade-in">
+            <li><strong>AICTE OIB-SIP Internship:</strong> Web Development and Designing (May 20, 2024 – June 20, 2024) – Designed responsive calculator using HTML, CSS, and JavaScript.</li>
+        </ul>
+    </section>
+
+    <!-- Certificates & Workshops Section -->
+    <section id="certificates" class="certificates-section">
+        <h2 class="section-title fade-in">Certificates & Workshops</h2>
+        <ul class="fade-in">
+            <li>Ethical Hacking and Penetration Testing – C-DAC, Noida</li>
+            <li>AI/ML for Geodata Analysis – IIRS, Dehradun</li>
+            <li>Workshop: Potential of NISAR for Disaster Mitigation – IIRS, Dehradun</li>
+            <li>Web Development and Designing Internship – AICTE OIB-SIP</li>
+            <li>Programming in C Language – Aptech Education</li>
+            <li>GenAI Powered Data Analytics Job Simulation – TATA (July 2025)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title fade-in">Contact Me</h2>
+        <p class="fade-in">Send me a message directly and I will reply as soon as possible.</p>
+        <form id="contact-form" class="fade-in">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn hire">Send Message</button>
+        </form>
+        <p id="form-status" class="fade-in"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
